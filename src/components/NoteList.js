@@ -10,9 +10,9 @@ const NoteList = () => {
   let [note, setNote] = useState(null)
   const [fetchError, setFetchError] = useState(null)
   const Get_Note_URL = `/api/notes/${id}`
-  const Update_Note_URL =  `/api/notes/${id}/update/`
-  const Delete_Note_URL =  `/api/notes/${id}/delete/`
-  const Create_Note_URL =  `/api/notes/create/`
+  const Update_Note_URL =  `/api/notes/${id}/`
+  const Delete_Note_URL =  `/api/notes/${id}/`
+  const Create_Note_URL =  `/api/notes/`
 
 
 

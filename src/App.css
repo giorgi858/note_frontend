@@ -56,7 +56,6 @@ a {
   width: 100%;
   height: 100vh;
   color: var(--color-text);
-  background-color: var(--color-bg);
   display: flex;
   align-items: center;
 }
@@ -173,8 +172,8 @@ a {
 .floating-button {
   font-size: 48px;
   position: absolute;
-  bottom: 24px;
-  right: 16px;
+  top: 0px;
+  right: 70px;
   background: var(--color-main);
   border: none;
   width: 60px;

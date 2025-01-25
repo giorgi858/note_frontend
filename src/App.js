@@ -5,7 +5,7 @@ import NoteList from './components/NoteList'
 
 const App = () => {
   return (
-    <div className='container dark'>
+    <div className='container'>
       <div className='app'>
       <Routes>
         <Route path='/' Component={NotePageLists}/>
